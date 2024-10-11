@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   <nav class="navbar">
+      <div class="nav-center">
+         <div class="nav-header">
+            <a href="index.html" class="nav-log">
+               <img src="assets/logo.jpeg" alt="Recipes">
+            </a>
+            <button type="button" class="btn nav-btn">
+               <i class="fas fa-align-justify"></i>
+            </button>
+         </div>
+         <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="tags.html" class="nav-link">Tags</a>
+            <a href="recipe.html" class="nav-link">Recipes</a>
+            <div class="nav-link contact-link">
+                <a href="contact.html" class="btn">contact</a>
+            </div>
+      </div>
+      </div>
+   </nav>
+   <main class="main">
+<section class="contact">
+   <article class="contact-info">
+      <h3>Want To Get In Touch?</h3>
+      <p> Whether you’re trying out one of my recipes, 
+         have a question, or just want to share your own 
+         kitchen experiences, I’m always here to chat.
+      </p>
+      <p>Feel free to send me a message using the form below, 
+         and I’ll get back to you as quickly as I can.
+      </p>
+      <p>You can also reach out via email or connect with me 
+         on social media for updates, tips, 
+         and behind-the-scenes glimpses of my culinary adventures</p>
+   </article>
+
+   <article>
+    <form class=" form contact-form">
+      <div class="form-row"></div>
+      <label for="name" class="form-label">Your Name
+      </label>
+      <input type="text" name="name" id="name"
+       class="form-input">
+   </div>
+   <div class="form-row"></div>
+      <label for="email" class="form-label">Your email
+      </label>
+      <input type="text" name="email" id="email"
+       class="form-input">
+   </div>
+   <div class="form-row"></div>
+      <label for="message" class="form-label">message
+      </label>
+      <textarea type="message" name="email" id="message"
+       class="form-textarea">
+      </textarea>
+   </div>
+   <button type="submit" class=" btn btn-block">
+      submit
+   </button>
+    </form>
+   </article>
+    
+   <div class="recipes-list">
+      <a href="SingleRcipe.html" class="recipe">
+         <img src="assets/recipes/recipe-1.jpeg" alt="food" 
+         class="img recipe-img"/>
+         <h5>carne asada</h5>
+         <p>prep : 15min | cook 5min</p>
+      </a>
+
+      <a href="SingleRcipe.html" class="recipe">
+         <img src="assets/recipes/recipe-2.jpeg" alt="food" 
+         class="img recipe-img"/>
+         <h5>Greek ribs</h5>
+         <p>prep : 15min | cook 5min</p>
+      </a>
+
+      
+      <a href="SingleRcipe.html" class="recipe">
+         <img src="assets/recipes/recipe-3.jpeg" alt="food" 
+         class="img recipe-img"/>
+         <h5>Vegatable soup</h5>
+         <p>prep : 15min | cook 5min</p>
+      </a>
+
+      <a href="SingleRcipe.html" class="recipe">
+         <img src="assets/recipes/recipe-4.jpeg" alt="food" 
+         class="img recipe-img"/>
+         <h5>banana pancakes</h5>
+         <p>prep : 15min | cook 5min</p>
+      </a>
+   </div>
+</section>
+     
+   </main>
+   <footer class="footer">
+      <p>
+         &copy; <span id="date">2024</span>
+         <span class="footer-logo">WangoResipes</span>
+         Built by <a href=" ">Wango Edwin</a>
+      </p>
+   </footer>
+   <script src="js/app.js"></script>
+  </body>
+</html>
